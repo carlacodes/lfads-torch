@@ -9,4 +9,5 @@ isort
 flake8
 ray[tune]==2.1.0
 matplotlib
+scikit-learn
 wandb

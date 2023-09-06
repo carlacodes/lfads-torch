@@ -7,9 +7,14 @@ from lfads_torch.run_model import run_model
 
 # ---------- OPTIONS -----------
 PROJECT_STR = "lfads-torch-example"
-DATASET_STR = "nlb_mc_maze"
+DATASET_STR = "zola_task_engagement"
 RUN_TAG = datetime.now().strftime("%y%m%d") + "_exampleSingle"
-RUN_DIR = Path("/snel/share/runs") / PROJECT_STR / DATASET_STR / RUN_TAG
+RUN_DIR = (
+    Path("C:/Users/carla/tmp/zola_singlesearch_example")
+    / PROJECT_STR
+    / DATASET_STR
+    / RUN_TAG
+)
 OVERWRITE = True
 # ------------------------------
 

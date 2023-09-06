@@ -1,6 +1,6 @@
 _target_: lfads_torch.datamodules.BasicDataModule
 data_paths:
-  - ${D:/tf_h5files/F1702_Zola/raster_reshaped_1_1_True_pitchshift.h5}
+  - ${relpath:datasets/raster_reshaped_1_1_True_pitchshift.h5}
 batch_keys:
   - behavior
 attr_keys:

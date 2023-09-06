@@ -1,6 +1,6 @@
 defaults:
-  - model: nlb_mc_maze
-  - datamodule: nlb_mc_maze
+  - model: zola_task_engagement
+  - datamodule: zola_task_engagement
   - callbacks: default
   - _self_
 
